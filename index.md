@@ -6,4 +6,4 @@ Página em desenvolvimento
 
 teste
 
-* [Basic Man](/novels/Basic_Man.md)
+* [Basic Man]({{ site.baseurl }}/novels/Basic_Man.html)

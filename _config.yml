@@ -1,9 +1,10 @@
 title: "Minhas Web Novels"
 description: "Um site para publicar minhas histórias."
 baseurl: "/Web_Novel"
-url: "https://Marlytos6.github.io"
+url: "https://marlytos.github.io"
 timezone: 'America/Sao_Paulo'
 theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  
