@@ -1,0 +1,61 @@
+body {
+  font-family: 'Georgia', serif; /* Fonte principal */
+  line-height: 1.7; /* Espaçamento generoso entre linhas */
+  color: #333; /* Cor de texto escura, mas não preto puro */
+  background-color: #f8f8f8; /* Um fundo levemente claro para descanso visual */
+  margin: 0; /* Remove margens padrão do body */
+  padding: 20px; /* Adiciona um pouco de espaço nas bordas da página */
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif; /* Fonte diferente para títulos */
+  color: #1a1a1a; /* Títulos mais escuros */
+  margin-top: 40px; /* Espaço antes dos títulos */
+  margin-bottom: 20px; /* Espaço depois dos títulos */
+}
+
+p {
+  margin-bottom: 25px; /* Espaçamento entre parágrafos */
+}
+
+.container { /* Assumindo que você tem um div com a classe "container" para envolver seu conteúdo */
+  max-width: 800px; /* Define a largura máxima */
+  margin: 40px auto; /* Centraliza o container na página */
+  padding: 0 20px; /* Adiciona padding nas laterais internas */
+}
+
+.post-content { /* Para o conteúdo do seu capítulo */
+  text-align: left;
+}
+
+.nav-links { /* Estilizando a navegação de capítulos */
+  margin-top: 50px;
+  text-align: center;
+  border-top: 1px solid #eee;
+  padding-top: 30px;
+}
+
+.nav-links a {
+  text-decoration: none; /* Remove sublinhado dos links */
+  color: #007bff; /* Cor dos links */
+  margin: 0 15px; /* Espaço entre os links anterior/próximo */
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+  color: #0056b3; /* Cor um pouco mais escura no hover */
+}
+
+blockquote {
+  border-left: 4px solid #ccc;
+  padding-left: 20px;
+  margin-left: 0;
+  font-style: italic;
+  color: #555;
+}
+
+.dialogue { /* Exemplo para diálogos */
+  font-weight: bold;
+  color: #2c3e50;
+}

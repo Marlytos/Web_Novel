@@ -5,9 +5,9 @@ layout: default
     <h2>{{ page.novel }} - {{ page.title }}</h2>
     <p>Publicado em: {{ page.date | date: "%d/%m/%Y" }}</p>
 
-    {{ content }}
+    <div class="post-content">{{ content }}</div>
 
-    <nav>
+    <nav class="nav-links">
         {% if page.previous %}
         <a href="{{ site.baseurl }}/{{ page.previous.url }}">Anterior: {{ page.previous.title }}</a>
         {% endif %}
